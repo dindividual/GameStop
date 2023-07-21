@@ -1,10 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import pandas_datareader.data as web
 import datetime as dr
 import statistics as st
-import seaborn as sns
 
 dfstk=pd.read_csv('GME weekly stock prices from yahoo.csv',parse_dates=True,index_col=0)
 
